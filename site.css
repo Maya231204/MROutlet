@@ -1,0 +1,447 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.pag1{
+    display: flex;
+    flex-direction: column;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    padding: 20px;
+    gap: 70px;
+}
+
+.cabecalho h1{
+    color: rgb(232, 123, 46);
+    margin-left: 45px;
+}
+
+.opcoes{
+    display: flex;
+    flex-direction: row;  
+    gap: 40px;
+    align-items: center;
+    color: white;
+    font-size: 16px;
+}
+
+.pesquisar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 60vh;
+    padding: 5px 5px 5px 20px;
+    gap: 5px;
+    border-radius: 20px;
+}
+
+.imagem{
+    display: flex;
+    background-color: rgb(64, 63, 63);
+    height: 90vh;
+    margin-top: 6vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 45px;
+    font-size: 40px;
+}
+
+.produtos{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.produtos h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.produtos p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.produtos img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+
+.button{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40vh;
+}
+
+.cinza{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(64, 63, 63) ;
+    gap: 50px;
+    height: 80vh;
+    padding: 45px 20px 15px 110px;
+}
+
+.preto h1{
+    color: rgb(255, 255, 255);
+    height: 40px;
+}
+
+.preto{
+    display: flex;
+    background-color: black;
+    height: 70vh;
+    width: 80vw;
+    padding: 20px;
+    gap: 30px;
+
+}
+
+.RP{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+   
+}
+
+.cinza div{
+    display: flex;
+    font-size: 16px;
+}
+
+.acessorios{
+    display: flex;
+    align-items: center;
+justify-content: center;
+    flex-direction: column;
+}
+
+.tenis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.preto div{
+    display: flex;
+    color: rgb(232, 123, 46);
+    font-size: 16px;
+}
+
+.pag2{
+    display: flex;
+    flex-direction: column;
+}
+
+.faixapreta{
+    background-color: black;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.cabecalho2{
+    display: flex;
+    flex-direction: row;
+    height: 55px ;
+    gap: 180px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.cabecalho2 div{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 20px ;
+}
+
+.marcas{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+.logos{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos div{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    gap: 100px;
+    padding: 20px;
+    background-color: rgba(233, 128, 53, 0.636);
+}
+
+.marcas img{
+    display: flex;
+    gap: 40px;
+}
+
+.marcas h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px 0px 0px 48px;
+
+}
+
+.laranja{
+    display: flex;
+    margin-top: 70px;
+    background-color: rgb(232, 123, 46);
+    height: 3px;
+    border-radius: 10px;
+}
+
+.Um{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0px 0px 48px;
+}
+
+.Dois{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 40px 0px 0px 55px;
+    color: rgb(232, 123, 46);
+}
+
+.colecao div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 80px;
+}
+
+.colecao img{
+    height: 35vh;
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bt1{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 30vh;   
+    gap: 100px;
+}
+
+.bt2{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 30vh;   
+    gap: 100px;
+}
+
+.fxlaranja{
+    display: flex;
+    background-color: rgb(232, 123, 46);
+    height: 30px;
+    width: 94vw;
+}
+
+.fxpreta{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: 94vw;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: 0px 0px 0px 60px;
+}
+
+.rodape{
+    display:flex ;
+   background-color: rgb(64, 63, 63);
+   height: 70vh;
+   margin-top: 50px;
+   
+}
+
+.Logo{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 40px;
+  color: rgb(232, 123, 46);
+  margin: 60px 30px 0px 60px;
+}
+
+.nomes{
+   display: flex;
+   font-size: 20px;
+   flex-direction: column;
+   color: white;
+   align-self: flex-start;
+   align-self: center;
+   justify-content: center;
+   gap: 5px; 
+   padding: 20px;
+}
+
+.title{
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    color: white;
+    align-self: center;
+    justify-content: center;
+}
+
+.Image{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    background-color: #D9D9D9;
+    height: 66vh;
+    width: 30vw;
+    padding: 30px;
+    margin: 100px 50px 0px 430px;
+
+}
+
+.Info{
+    display: flex ;
+    padding: 5px;
+    width: 28vw;
+    height: 20px;
+}
+
+.informacoes{
+   display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: black;
+    gap: 20px;
+      align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.informacoes div{
+    display: flex;
+    background-color: white;
+    padding: 5px;
+    width: 28vw;
+    height: 20px;
+}
+
+.termos{
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0px 20px 30px;
+    gap: 5px;
+}
+
+.BUTTON{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.BT1{
+    display: flex;
+    background-color: #628AEF;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 20vh;   
+    gap: 100px;
+}
+
+.BT2{
+    display: flex;
+    background-color: #628AEF;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 20vh;   
+    gap: 100px;
+}
+
+.opcoes div:hover{
+   text-decoration: underline;
+}
+
+.logos img:hover{
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.408);
+   transition: 0.3s;
+}
